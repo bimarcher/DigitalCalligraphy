@@ -1,6 +1,6 @@
 ﻿namespace DigitalCalligraphy
 {
-    partial class Form1
+    partial class login
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -28,9 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login));
+            this.SuspendLayout();
+            // 
+            // login
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(1348, 721);
+            this.Name = "login";
+            this.Text = "中国数字书法-王羲之\\王献之卷";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
